@@ -1,8 +1,8 @@
-import NavBar from "@/components/common/NavBar";
+import NavBar from "@/components/base/NavBar";
 
 export default function Home() {
   return (
-    <div className="flex justify-center">
+    <div>
       <NavBar />
     </div>
   );
