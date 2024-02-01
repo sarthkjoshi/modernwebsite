@@ -8,9 +8,9 @@ export default function FirstSection() {
     <div className="flex flex-col items-center mt-5">
       <div className="max-w-[740px] flex flex-col items-center">
         <div className="flex flex-col items-center text-center ">
-          <h1 className="text-4xl md:text-[60px]  text-center ">
-            <span>AI-powered video</span> creations at scale
-          </h1>
+          <div className="text-4xl md:text-[60px]   text-center ">
+            AI-powered video creations at scale
+          </div>
 
           <p className="max-w-[450px] text-[16px] md:text-[24px] text-center mt-4">
             Effortlessly produce studio quality videos with AI- generated
