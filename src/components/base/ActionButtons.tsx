@@ -21,7 +21,10 @@ export default function ActionButtons() {
   return (
     <div className="flex items-center gap-3 ">
       <div className=" md:flex items-center space-x-4">
-        <Button variant="ghost" className="hidden md:block">
+        <Button
+          variant="ghost"
+          className="hidden md:block bg-body rounded-3xl hover:rounded-3xl hover:bg-violet-200 "
+        >
           Contact Sales
         </Button>
         <Button className="">Get started</Button>
@@ -31,7 +34,7 @@ export default function ActionButtons() {
           <SheetTrigger>
             <AlignJustify className="bg-gray-300 rounded-md p-1 w-9 h-9 mt-1" />
           </SheetTrigger>
-          <SheetContent side={"top"}>
+          <SheetContent side={"top"} className="bg-violet-200">
             <SheetHeader>
               <SheetDescription>
                 <Accordion type="single" collapsible>

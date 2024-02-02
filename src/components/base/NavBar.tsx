@@ -14,7 +14,7 @@ import Logo from "./Logo";
 
 export default function NavBar() {
   return (
-    <div className="flex justify-between items-center px-10 ">
+    <div className="flex justify-between items-center px-10">
       <Logo />
       <nav className="hidden mt-2  md:block">
         <NavigationMenu>
@@ -23,7 +23,7 @@ export default function NavBar() {
               <NavigationMenuTrigger className="bg-body rounded-3xl hover:rounded-3xl focus:outline-none focus:bg-body ">
                 Use Cases
               </NavigationMenuTrigger>
-              <NavigationMenuContent>
+              <NavigationMenuContent className="bg-violet-200">
                 <ul className="w-60 p-5 rounded-full">
                   <li className="m-2">Sales Outreach</li>
                   <li className="m-2">Product Marketing</li>
@@ -36,8 +36,8 @@ export default function NavBar() {
               <NavigationMenuTrigger className="bg-body  hover:shadow-none rounded-3xl hover:rounded-3xl focus:bg-body">
                 Features
               </NavigationMenuTrigger>
-              <NavigationMenuContent>
-                <ul className="w-60 p-5 rounded-md">
+              <NavigationMenuContent className="bg-violet-200">
+                <ul className="w-60 p-5 rounded-md ">
                   <li className="m-2"> Instant Avatar</li>
                   <li className="m-2">Studio Avatar</li>
                   <li className="m-2">Video Translate</li>
@@ -57,7 +57,7 @@ export default function NavBar() {
               <NavigationMenuTrigger className="bg-body hover:shadow-none rounded-3xl hover:rounded-3xl focus:bg-body">
                 Resources
               </NavigationMenuTrigger>
-              <NavigationMenuContent>
+              <NavigationMenuContent className="bg-violet-200">
                 <ul className="w-60 p-5 rounded-full">
                   <li className="m-2"> Blog</li>
                   <li className="m-2">Weekly Webinar</li>
@@ -68,7 +68,7 @@ export default function NavBar() {
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="/docs" legacyBehavior passHref>
-                <NavigationMenuLink className="bg-body hover:shadow-none rounded-3xl hover:rounded-3xl focus:bg-body">
+                <NavigationMenuLink className="bg-body hover:shadow-none rounded-3xl hover:rounded-3xl focus:bg-body font-medium text-[14px]">
                   Pricing
                 </NavigationMenuLink>
               </Link>

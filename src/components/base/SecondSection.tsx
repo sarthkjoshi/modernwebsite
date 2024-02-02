@@ -13,7 +13,7 @@ export default function SecondSection() {
           autoPlay
           muted
           loop
-          className="rounded-2xl shadow-2xl "
+          className="rounded-2xl shadow-2xl shadow-violet-500 "
         >
           <source src="videos/talking.mp4" type="video/mp4" />
         </video>

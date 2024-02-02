@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Logo() {
   return (
-    <div>
-      <Image src="next.svg" width={50} height={50} alt="logo"></Image>
+    <div className="mt-4 ">
+      <Image src="next.svg" width={60} height={90} alt="logo"></Image>
     </div>
   );
 }
